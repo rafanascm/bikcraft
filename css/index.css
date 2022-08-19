@@ -1,0 +1,96 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.header-bg{
+  background-color: #000000;
+}
+
+.header{
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 1200px;
+}
+
+.header-menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-menu a{
+  /* Para aumentar a area de contato */
+  display: inline-block;
+  padding: 16px 0px;
+  font-size: 18px;
+  /* Definido o pai como relative para transição */
+  position: relative;
+}
+
+.header-menu a:after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  /* width: 100%; */
+  background: #FFFFFF;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-menu a:hover:after{
+  width: 100%;
+}
+
+
+@media (max-width: 800px) {
+
+  .header-menu{
+    gap: 20px;
+  }
+
+  .header-menu a {
+    background-color: #181818;
+    padding: 12px 16px;
+    border-radius: 4px ;
+  }
+
+  .header-menu a:hover {
+   background-color: #2E2E2E;
+  }
+
+  .header-menu a:after{
+    /* Retirando transição do mobile */
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-menu{
+    gap: 12px;
+  }
+
+  .header-menu a {
+    padding: 8px 12px;
+   
+  }
+}
+
