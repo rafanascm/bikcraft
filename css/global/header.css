@@ -9,8 +9,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  max-width: 1200px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  /* Criado um componente = container */
+  /* box-sizing: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto; */
 }
 
 .header-menu{

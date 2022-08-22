@@ -1,3 +1,13 @@
+
+/* Definindo espaço do container de até 1200px */
+.container{
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .botao{
   display: inline-block;
   padding: 16px 32px;

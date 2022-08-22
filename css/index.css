@@ -11,6 +11,8 @@
 @import "./utilidades/componentes.css";
 /* Home - Introdução */
 @import "./home/introducao.css";
+/* Conteudo - Listas */
+@import"./bicicletas/bicicletas-lista.css"
 
 
 
