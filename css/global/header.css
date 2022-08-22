@@ -23,11 +23,8 @@
   /* Para aumentar a area de contato */
   display: inline-block;
   padding: 16px 0px;
-  font-size: 18px;
   /* Definido o pai como relative para transição */
   position: relative;
-  font-family: "Poppins";
-  font-weight: 400;
 }
 
 .header-menu a:after{
