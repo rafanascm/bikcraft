@@ -14,7 +14,9 @@
 /* Conteudo - Listas */
 @import"./bicicletas/bicicletas-lista.css";
 /* Conteudo - Tecnologia */
-@import"./home/tecnologia.css"
+@import"./home/tecnologia.css";
+/* Parceiros */
+@import"./home/parceiros.css"
 
 
 
