@@ -11,7 +11,8 @@ h3,
 h4,
 ul,
 p,
-blockquote{
+blockquote,
+dd{
   /* Retirando espaço entre o h1 e a introdução */
   margin: 0px;
 }
