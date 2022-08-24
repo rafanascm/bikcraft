@@ -7,6 +7,7 @@
 @import"./utilidades/cores.css";
 /* Header -  Cabeçalho */
 @import "./global/header.css";
+@import "./global/footer.css";
 /* Utilidades - botão para reaproveitamento */
 @import "./utilidades/componentes.css";
 /* Home - Introdução */
@@ -19,6 +20,9 @@
 @import"./home/parceiros.css";
 /* depoimento */
 @import"./home/depoimento.css";
+/* Seguros */
+@import "./seguros/seguros.css";
+
 
 
 
