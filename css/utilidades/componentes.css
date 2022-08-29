@@ -19,6 +19,8 @@
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   /* Ele sempre vai ter o tamanho definido do botao, e não cresce mais do que isso */
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover{
